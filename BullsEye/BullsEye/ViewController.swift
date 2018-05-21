@@ -9,6 +9,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var currentValue: Int = 50
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,12 +21,16 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    @IBAction func sliderMoved(_ slider: UISlider) {
+        currentValue = lroundf(slider.value)
+    }
 
-    @IBAction func knockKnock() {
-        let alert = UIAlertController(title: "Knock knock",
-                                       message: "Who's there?",
+    @IBAction func showAlert() {
+        let alert = UIAlertController(title: "Alert",
+                                      message: "This is an alert.\nThe slider value is: \(currentValue).",
                                        preferredStyle: .alert)
-        let action = UIAlertAction(title: "It's me! Mario!",
+        let action = UIAlertAction(title: "Nice",
                                    style: .default,
                                    handler: nil)
         
