@@ -20,11 +20,11 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBAction func showAlert() {
-        let alert = UIAlertController(title: "Title",
-                                       message: "This is an alert.",
+    @IBAction func knockKnock() {
+        let alert = UIAlertController(title: "Knock knock",
+                                       message: "Who's there?",
                                        preferredStyle: .alert)
-        let action = UIAlertAction(title: "Nice!",
+        let action = UIAlertAction(title: "It's me! Mario!",
                                    style: .default,
                                    handler: nil)
         
