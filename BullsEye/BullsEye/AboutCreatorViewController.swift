@@ -9,11 +9,11 @@
 import UIKit
 
 class AboutCreatorViewController: UIViewController {
-    
-    @IBAction func close() {
-        dismiss(animated: true)
-    }
 
+    @IBAction func close(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
