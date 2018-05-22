@@ -82,11 +82,10 @@ class ViewController: UIViewController {
         
         action = UIAlertAction(title: "Nice",
                                 style: .default,
-                                handler: nil)
+                                handler: { action in self.startNewRound() })
         
         alert.addAction(action)
         present(alert, animated: true, completion: nil)
-        startNewRound()
     }
 
 }
