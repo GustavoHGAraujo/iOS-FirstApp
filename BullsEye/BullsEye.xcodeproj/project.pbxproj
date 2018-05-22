@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C96D817320B43F1800E48F41 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96D817220B43F1800E48F41 /* AboutViewController.swift */; };
+		C96D817520B4411C00E48F41 /* AboutCreatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96D817420B4411C00E48F41 /* AboutCreatorViewController.swift */; };
 		C9900E4A20B3038F00BF53BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9900E4920B3038F00BF53BE /* AppDelegate.swift */; };
 		C9900E4C20B3038F00BF53BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9900E4B20B3038F00BF53BE /* ViewController.swift */; };
 		C9900E4F20B3038F00BF53BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9900E4D20B3038F00BF53BE /* Main.storyboard */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C96D817220B43F1800E48F41 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		C96D817420B4411C00E48F41 /* AboutCreatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutCreatorViewController.swift; sourceTree = "<group>"; };
 		C9900E4620B3038F00BF53BE /* BullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9900E4920B3038F00BF53BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9900E4B20B3038F00BF53BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,7 +105,9 @@
 			children = (
 				C9900E4920B3038F00BF53BE /* AppDelegate.swift */,
 				C9900E4B20B3038F00BF53BE /* ViewController.swift */,
+				C96D817220B43F1800E48F41 /* AboutViewController.swift */,
 				C9900E4D20B3038F00BF53BE /* Main.storyboard */,
+				C96D817420B4411C00E48F41 /* AboutCreatorViewController.swift */,
 				C9900E5320B3039100BF53BE /* Assets.xcassets */,
 				C9900E5520B3039100BF53BE /* LaunchScreen.storyboard */,
 				C9900E5820B3039100BF53BE /* Info.plist */,
@@ -261,7 +267,9 @@
 			files = (
 				C9900E5220B3038F00BF53BE /* BullsEye.xcdatamodeld in Sources */,
 				C9900E4C20B3038F00BF53BE /* ViewController.swift in Sources */,
+				C96D817320B43F1800E48F41 /* AboutViewController.swift in Sources */,
 				C9900E4A20B3038F00BF53BE /* AppDelegate.swift in Sources */,
+				C96D817520B4411C00E48F41 /* AboutCreatorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
